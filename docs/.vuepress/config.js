@@ -1,5 +1,5 @@
 module.exports = {
-    title: 'Hello VuePress',
+    title: 'Hello FE',
     description: 'Just playing around',
     theme: 'reco',
     base: '/learn-js/',
@@ -13,7 +13,7 @@ module.exports = {
         nav: [
             { text: '首页', link: '/' },
             { 
-                text: '冴羽的 JavaScript 博客', 
+                text: 'muyudou的 总结', 
                 items: [
                     { text: 'Github', link: 'https://github.com/mqyqingfeng' },
                     { text: '掘金', link: 'https://juejin.cn/user/712139234359182/posts' }
@@ -34,8 +34,9 @@ module.exports = {
               path: '/handbook/ts',
               collapsable: false, // 不折叠
               children: [
-                { title: "第一篇", path: "/handbook/ts" },
-                { title: "第二篇", path: "/handbook/js" }
+                { title: "ts小册总结", path: "/handbook/ts" },
+                { title: "从4个方面重新梳理webpack", path: "/handbook/webpack" },
+                { title: "vtable高度自适应方案.md", path: "/handbook/table" }
               ],
             }
         ]
